@@ -1,16 +1,16 @@
-# Contribution [#]: [Issue Title]
+# Contribution [1]: [FR] highlight variant stock in parts views
 
-**Contribution Number:** [1 / 2 / 3]  
+**Contribution Number:** [1]  
 **Student:** Raphael Adewale 
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Issue:** https://github.com/pulumi/pulumi-kubernetes/issues/3590
+**Status:** [Phase I]
 
 ---
 
 ## Why I Chose This Issue
-
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
-
+I am pursuing a career in Platform Engineering and this project is very important to me. 
+It will buildmy skills with Go. I am already proficient in C# which can help me understand the project.
+The project is a scoped, well-defined bug in a specific subsystem 
 ---
 
 ## Understanding the Issue
