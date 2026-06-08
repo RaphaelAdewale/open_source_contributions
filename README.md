@@ -8,9 +8,15 @@
 ---
 
 ## Why I Chose This Issue
-I am pursuing a career in Platform Engineering and this project is very important to me. 
-It will buildmy skills with Go. I am already proficient in C# which can help me understand the project.
-The project is a scoped, well-defined bug in a specific subsystem 
+I chose issue "Helm Chart v3.Release not trigger hook" in pulumi-kubernetes (Pulumi) because it aligns with my interest in cloud infrastructure and my goal to build hands-on experience with Kubernetes and Infrastructure as Code tooling. The issue is labeled "good-first-issue" and has a clearly scoped bug with a specific trigger condition.
+I'm interested in this because:
+
+1.  I've worked with Kubernetes concepts before, so I understand the basics of Helm charts and release lifecycles, this issue lets me go deeper into how hooks are supposed to fire
+2.  The bug is contained to the Helm Chart v3 integration module, not the entire provider codebase, making it realistic to navigate as a first contributor
+3.  Pulumi is actively maintained and presented major Kubernetes updates as recently as KubeCon 2024, meaning PRs in this area are likely to be reviewed and merged
+4.  I want to understand how Pulumi bridges real Kubernetes behavior (Helm hook lifecycle) with its own IaC resource model — a pattern that's transferable to any cloud infrastructure role
+
+From reading the issue, the current problem is that lifecycle hooks defined in a Helm v3 chart are not being triggered on Release, meaning post-install or pre-upgrade hooks silently don't run — breaking deployments that depend on them. My contribution would fix a real reliability gap that affects production Kubernetes users.
 ---
 
 ## Understanding the Issue
