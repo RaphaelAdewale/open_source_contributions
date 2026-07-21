@@ -3,7 +3,7 @@
 **Contribution Number:** [1]
 **Student:** Raphael Adewale
 **Issue:** https://github.com/apache/seatunnel/issues/10753 ("[Umbrella][Feature][Connector] Support New Connectors - Claim & Tracking")
-**Status:** [Phase II]
+**Status:** [Phase III]
 
 ---
 
@@ -66,10 +66,9 @@ No Splunk connector exists in the `dev` branch on either side. The tracker marks
 
 ### Evidence
 
-- **Commit/branch showing verification:** [Link to your fork]
-- **Screenshots/logs:** [If applicable]
-- **My findings:** [What you discovered while exploring the codebase]
-
+- **Commit/branch showing verification:** (https://github.com/RaphaelAdewale/apache-seatunnel)
+- **Screenshots/logs:** TBD
+- **My findings:** TBD
 ---
 
 ## Solution Approach
